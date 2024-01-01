@@ -154,7 +154,7 @@ export default async function Home() {
         {
           data.map((value, index)=> {
             return (
-              <div className='w-1/3'>
+              <div key={index} className='w-1/3'>
                 <Image
                     src={value.source}
                     alt="1"
